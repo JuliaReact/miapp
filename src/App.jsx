@@ -1,24 +1,17 @@
 import { useState } from 'react';
 import React from 'react'
 import './App.css';
-
+import Formulario from './componentes/formulario';
 
 
 function App() {
-  const [nombre, setnombre] = useState('hola universo')
-  
-  const saludar= () =>{
-    setnombre("cuchi") 
-  
-  }
+  const[titulo, setTitulo]= useState('LA PAGINA DE CUCHI')
   return (
     <div >
-      <h1>Mi app</h1>
-      <p> {nombre} </p>
-      <button type='button' onClick={() => saludar()}>cambiar saludo</button>
-     
+         <Formulario miTitulo={titulo}/>
     </div>
   );
+
 }
 
 export default App;
