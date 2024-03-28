@@ -9,7 +9,8 @@ const Formulario = ({miTitulo}) => {
             <div>
                 <h1>FORMULARIO DE DATOS</h1>
                 <form>
-                    <input type='text' id='nombre' value={nombre}></input>
+                    <input type='text' id='nombre' value={nombre} onChange={e=>setnombre(e.target.value)}></input>
+                    
                 </form>
             </div>
         </div>
