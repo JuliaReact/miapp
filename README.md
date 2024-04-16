@@ -1,2 +1,0 @@
-# miapp
-Proyecto de repaso
