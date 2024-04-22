@@ -1,0 +1,40 @@
+.superGeneral{
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+    font-size: 40px;
+    color: darkblue;
+    font-family: fantasy;
+}
+.titulo{
+    
+    margin:15px 0px 20px 0px ;
+}
+.principal{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.general{
+    width: 100;
+}
+.encuadre{
+    display: flex;
+    flex-direction: column;
+}
+.tnom{
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+    font-size: 30px;
+    color: rgb(246, 2, 23);
+    font-family: monospace;
+}
+.telef{
+    width: 50%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+    font-size: 30px;
+    color: rgb(246, 2, 23);
+    font-family: monospace;
+}
